@@ -1,10 +1,13 @@
 :root {
     --primary-text-color: #212121;
+    --second-text-color: #ffffff;
     --title-text-color: #757575;
     --accent-color: #2196F3;
+    --primary-bt
 }
 
-body {background-color: #FFFFFF;}
+body {background-color: #FFFFFF;
+font family: Roboto, sans-serif; }
 
 
 /* колір основного тексту #212121 */
@@ -13,13 +16,20 @@ body {background-color: #FFFFFF;}
 /* білий колір #FFFFFF rgba(255, 255, 255, 0.6)
 основний фон #F5F5F5 */
 /* фон секції наша команда #F5F4FA */
-.logo-web {color: #2196F3;}
+/* logo */
+
+.logo :hover {color: var(--accent-color);}
 .list {list-style: none;}
 /* site nav */
 .site-nav.link {color: var(--primary-text-color);}
 
-.site-nav :hover,
-.site-nav :focus {color: var(--accent-color);}
+.site-nav :hover {color: var(--accent-color);}
+.site-nav :focus {color: var(--primary-text-color);}
 .hero-title {color: var(--primary-text-color);}
 .section-title {color: var(--primary-text-color);}
 .section-text {color: var(--title-text-color);}
+/* button */
+.button {background-color: var(--accent-color); 
+color: var(--second-text-color);}
+.site-nav list-second :hover,
+.adress :focus {color: var(--accent-color);}
