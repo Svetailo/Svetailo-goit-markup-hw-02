@@ -3,7 +3,9 @@
     --second-text-color: #ffffff;
     --title-text-color: #757575;
     --accent-color: #2196F3;
-    --primary-bt
+    --primary-bt-color: #F5F4FA;
+    портфоліо
+    
 }
 
 body {background-color: #FFFFFF;
@@ -19,23 +21,27 @@ letter-spacing: 0.03em;}
 /* фон секції наша команда #F5F4FA */
 /* logo */
 
-.logo :hover {color: var(--accent-color);
+.logo :hover {color: var(--accent-color)
     font-family: 'Raleway';
-    
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2 ;}
 .list {list-style: none;}
 /* site nav */
-.site-nav {text-decoration: none;}
+.site-nav {}
 .site-nav.link {color: var(--primary-text-color);
-
+    text-decoration: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
+.link {color: var(--primary-text-color);
+text-decoration: none;
+}
+.adress {color: var(--primary-text-color);
+text-decoration: none;}
+
 
 .site-nav :hover {color: var(--accent-color);}
 .site-nav :focus {color: var(--primary-text-color);}
@@ -69,3 +75,13 @@ text-transform: uppercase;
 color: var(--second-text-color);}
 .site-nav list-second :hover,
 .adress :focus {color: var(--accent-color);}
+
+/* Сторінка портфоліо */
+.control :hover {color: var(--accent-color);} 
+.control :focus {color: var(--primary-text-color);}
+.button-mov :hover 
+.title-port-tx {color: var(--title-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 2;
+}
